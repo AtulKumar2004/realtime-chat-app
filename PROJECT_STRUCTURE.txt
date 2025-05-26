@@ -1,0 +1,77 @@
+Chat-App/
+├─ backend/
+│  ├─ src/
+│  │  ├─ controllers/
+│  │  │  ├─ auth.controller.js
+│  │  │  └─ message.controller.js
+│  │  ├─ lib/
+│  │  │  ├─ cloudinary.js
+│  │  │  ├─ db.js
+│  │  │  ├─ socket.js
+│  │  │  └─ utils.js
+│  │  ├─ middleware/
+│  │  │  └─ auth.middleware.js
+│  │  ├─ models/
+│  │  │  ├─ message.model.js
+│  │  │  └─ user.model.js
+│  │  ├─ routes/
+│  │  │  ├─ auth.route.js
+│  │  │  └─ message.route.js
+│  │  ├─ seeds/
+│  │  │  └─ user.seed.js
+│  │  └─ index.js
+│  ├─ .env
+│  ├─ package-lock.json
+│  └─ package.json
+├─ frontend/
+│  ├─ dist/
+│  │  ├─ assets/
+│  │  │  ├─ index-BipPuACC.js
+│  │  │  └─ index-CjdwrwOs.css
+│  │  ├─ avatar.png
+│  │  ├─ Chatty-Logo.png
+│  │  ├─ index.html
+│  │  └─ vite.svg
+│  ├─ public/
+│  │  ├─ avatar.png
+│  │  ├─ Logo.png
+│  │  └─ vite.svg
+│  ├─ src/
+│  │  ├─ components/
+│  │  │  ├─ skeletons/
+│  │  │  │  ├─ MessageSkeleton.jsx
+│  │  │  │  └─ SidebarSkeleton.jsx
+│  │  │  ├─ AuthImagePattern.jsx
+│  │  │  ├─ ChatContainer.jsx
+│  │  │  ├─ ChatHeader.jsx
+│  │  │  ├─ MessageInput.jsx
+│  │  │  ├─ Navbar.jsx
+│  │  │  ├─ NoChatSelected.jsx
+│  │  │  └─ Sidebar.jsx
+│  │  ├─ constants/
+│  │  │  └─ index.js
+│  │  ├─ lib/
+│  │  │  ├─ axios.js
+│  │  │  └─ utils.js
+│  │  ├─ pages/
+│  │  │  ├─ HomePage.jsx
+│  │  │  ├─ LoginPage.jsx
+│  │  │  ├─ ProfilePage.jsx
+│  │  │  ├─ SettingsPage.jsx
+│  │  │  └─ SignUpPage.jsx
+│  │  ├─ store/
+│  │  │  ├─ useAuthStore.js
+│  │  │  ├─ useChatStore.js
+│  │  │  └─ useThemeStore.js
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ README.md
+│  └─ vite.config.js
+├─ .gitignore
+├─ package.json
+└─ PROJECT_STRUCTURE.txt
